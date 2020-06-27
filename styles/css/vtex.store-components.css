@@ -4,27 +4,31 @@
     font-weight: normal;
     color: black;
     border: 2px solid black;
-    padding: 24px
+    padding: 24px;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
-    border: transparent
+    border: transparent;
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
     background-color: white;
-    border: transparent
+    border: transparent;
 }
 
 .infoCardContainer {
     max-width: 1260px;
     margin: 0 auto;
-    padding: 0
+    padding: 0;
 }
 
-.infoCardContainer--vintage { background-color: #EDCFD1 }
+.infoCardContainer--vintage {
+    background-color: #EDCFD1;
+}
 
-.infoCardContainer--metal { background-color: #E1E1E1 }
+.infoCardContainer--metal {
+    background-color: #E1E1E1;
+}
