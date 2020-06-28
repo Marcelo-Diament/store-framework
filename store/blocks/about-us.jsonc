@@ -68,7 +68,7 @@
         }
     },
     "tab-content.item#home1": {
-        "children": ["rich-text#home1"],
+        "children": [ "rich-text#home1" ],
         "props": {
             "tabId": "majorAppliances"
         }
