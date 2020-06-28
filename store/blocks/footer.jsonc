@@ -1,0 +1,78 @@
+{
+    "footer": {
+        "blocks": [
+            "footer-layout.desktop"
+        ]
+    },
+    /*
+     * 24.01 | Footer - Desktop
+     * 'footer > footer-layout.desktop'
+     */
+    "footer-layout.desktop": {
+        "children": [
+            "flex-layout.row#footer-1-desktop"
+        ]
+    },
+    /*
+     * 24.01.01 | Footer - Desktop - Row #01
+     * 'footer > footer-layout.desktop > flex-layout.row#footer-1-desktop'
+     */
+    "flex-layout.row#footer-1-desktop": {
+        "children": [
+            "flex-layout.col#footer-left-desktop",
+            "flex-layout.col#footer-right-desktop"
+        ],
+        "props": {
+            "blockClass": "footer-row",
+            "paddingTop": 7,
+            "paddingBottom": 7
+        }
+    },
+    /*
+     * 24.01.01.01 | Footer - Desktop - Row #01 - Left
+     * 'footer > footer-layout.desktop > flex-layout.row#footer-1-desktop > flex-layout.col#footer-left-desktop'
+     */
+    "flex-layout.col#footer-left-desktop": {
+        "children": ["accepted-payment-methods"]
+    },
+    /*
+     * 24.01.01.01-a | Footer - Desktop - Row #01 - Left - Accepted Payment Methods
+     * 'footer > footer-layout.desktop > flex-layout.row#footer-1-desktop > flex-layout.col#footer-left-desktop > accepted-payment-methods'
+     */
+    "accepted-payment-methods": {
+        "props": {
+            "paymentMethods": ["mastercard", "visa", "diners club"],
+            "showInColor": true
+        }
+    },
+
+    /*
+     * 24.01.01.02 | Footer - Desktop - Row #01 - Right
+     * 'footer > footer-layout.desktop > flex-layout.row#footer-1-desktop > flex-layout.col#footer-right-desktop'
+     */
+    "flex-layout.col#footer-right-desktop": {
+        "children": ["social-networks"]
+    },
+    /*
+     * 24.01.01.02-a | Footer - Desktop - Row #01 - Right - Social Networks
+     * 'footer > footer-layout.desktop > flex-layout.row#footer-1-desktop > flex-layout.col#footer-right-desktop > social-networks'
+     */
+    "social-networks": {
+        "props": {
+            "socialNetworks": [{
+                    "url": "#",
+                    "name": "facebook"
+                },
+                {
+                    "url": "#",
+                    "name": "instagram"
+                },
+                {
+                    "url": "#",
+                    "name": "twitter"
+                }
+            ],
+            "showInColor": true
+        }
+    }
+}
