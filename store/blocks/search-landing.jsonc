@@ -12,11 +12,6 @@
         }
     },
     "search-result-layout.customQuery": {
-        "blocks": [
-            "search-result-layout.desktop",
-            "search-result-layout.mobile",
-            "search-not-found-layout"
-        ],
         "props": {
             "querySchema": {
                 "queryField": "Blue Top Retro Camera",
