@@ -20,7 +20,7 @@
   },
   "flex-layout.col#right": {
     "props": {
-      "varticalAlign": "center",
+      "verticalAlign": "center",
       "preventVerticalStretch": true
     },
     "children": [
