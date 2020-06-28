@@ -37,15 +37,15 @@
     "social-networks": {
         "props": {
             "socialNetworks": [{
-                    "url": "#",
+                    "url": "https://facebook.com/foo",
                     "name": "facebook"
                 },
                 {
-                    "url": "#",
+                    "url": "https://instagram.com/foo",
                     "name": "instagram"
                 },
                 {
-                    "url": "#",
+                    "url": "https://twitter.com/foo",
                     "name": "twitter"
                 }
             ],
