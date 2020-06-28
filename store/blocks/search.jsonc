@@ -44,6 +44,6 @@
     "blocks": ["gallery", "not-found"]
   },
   "gallery": {
-    "blocks": ["product-summary.shelf"]
+    "blocks": [ "product-summary.shelf" ]
   }
 }
