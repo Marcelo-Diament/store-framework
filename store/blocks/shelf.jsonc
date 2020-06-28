@@ -1,6 +1,6 @@
 {
     "shelf": {
-        "blocks": ["product-summary.shelf"],
+        "blocks": [ "product-summary.shelf" ],
         "props": {
             "category": 1,
             "orderBy": "OrderByTopSaleDESC",
