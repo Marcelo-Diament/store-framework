@@ -29,7 +29,7 @@
             "preventVerticalStretch": true
         }
     },
-    
+
     "rich-text#about-title": {
         "props": {
             "text": "# About FlatFlat"

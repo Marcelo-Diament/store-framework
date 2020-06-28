@@ -1,8 +1,4 @@
 {
-    /*
-     * 23 | Categories Menu
-     * 'vtex.menu@2.x:menu#categories'
-     */
     "vtex.menu@2.x:menu#categories": {
         "children": [
             "menu-item#major-appliances",
@@ -14,25 +10,17 @@
         }
     },
 
-
-    /*
-     * 23.01 | SubMenu 01. Major
-     * 'vtex.menu@2.x:menu#categories > flex-layout.row#major'
-     */
-     "flex-layout.row#major": {
+    "flex-layout.row#major": {
         "children": [
-          "flex-layout.col#menu",
-          "flex-layout.col#img"
+            "flex-layout.col#menu",
+            "flex-layout.col#img"
         ]
-      },
+    },
 
-    /*
-     * 23.02 | SubMenu 02. Small
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small'
-     */
     "vtex.menu@2.x:submenu#small": {
         "children": ["vtex.menu@2.x:menu#small"]
     },
+
     "vtex.menu@2.x:menu#small": {
         "children": [
             "menu-item#mixers",
@@ -44,13 +32,10 @@
         }
     },
 
-    /*
-     * 23.03 | SubMenu 03. Electronics
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics'
-     */
     "vtex.menu@2.x:submenu#electronics": {
         "children": ["vtex.menu@2.x:menu#electronics"]
     },
+
     "vtex.menu@2.x:menu#electronics": {
         "children": [
             "menu-item#cameras",

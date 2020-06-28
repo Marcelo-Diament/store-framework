@@ -1,9 +1,5 @@
 {
-    /*
-     * 23.01 | SubMenu 01. Major
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major > flex-layout.row#major'
-     */
-     "vtex.menu@2.x:submenu#major": {
+    "vtex.menu@2.x:submenu#major": {
         "children": ["flex-layout.row#major"]
     },
     "flex-layout.row#major": {
@@ -14,9 +10,7 @@
     },
 
     "flex-layout.col#menu": {
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ]
+        "children": ["vtex.menu@2.x:menu#major"]
     },
 
     "flex-layout.col#img": {

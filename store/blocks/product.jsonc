@@ -6,6 +6,7 @@
       "shelf.relatedProducts"
     ]
   },
+
   "flex-layout.row#main": {
     "props": {
       "marginTop": 6
@@ -15,6 +16,7 @@
       "flex-layout.col#right"
     ]
   },
+
   "flex-layout.col#left": {
     "children": ["stack-layout#brand"]
   },
@@ -24,12 +26,14 @@
       "product-brand"
     ]
   },
+
   "product-brand": {
     "props": {
       "displayMode": "logo",
       "height": 30
     }
   },
+
   "flex-layout.col#right": {
     "props": {
       "verticalAlign": "middle",
@@ -44,18 +48,21 @@
       "buy-button"
     ]
   },
+
   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": true
     }
   },
+
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
       "product-quantity"
     ]
   },
+
   "sku-selector": {
     "props": {
       "initialSelection": "empty",

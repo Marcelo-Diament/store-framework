@@ -1,8 +1,4 @@
 {
-  /*
-   * 23.01 | SubMenu 01. Major
-   * 'vtex.menu@2.x:menu#categories > menu-item#major-appliances'
-   */
   "menu-item#major-appliances": {
     "props": {
       "type": "custom",
@@ -47,11 +43,6 @@
     }
   },
 
-
-  /*
-   * 23.02 | SubMenu 02. Small
-   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#small-appliances'
-   */
   "menu-item#small-appliances": {
     "props": {
       "type": "category",
@@ -97,11 +88,6 @@
     }
   },
 
-
-  /*
-   * 23.03 | SubMenu 03. Electronics
-   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#electronics'
-   */
   "menu-item#electronics": {
     "props": {
       "type": "category",
@@ -113,7 +99,7 @@
     },
     "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
-  
+
   "menu-item#cameras": {
     "props": {
       "type": "category",
@@ -146,5 +132,4 @@
       }
     }
   }
-
 }
