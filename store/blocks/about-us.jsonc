@@ -56,27 +56,15 @@
     },
     "tab-list.item#home1": {
         "props": {
-            "tabId": "majorAppliances",
+            "tabId": "about",
             "label": "About",
             "defaultActiveTab": true
-        }
-    },
-    "tab-list.item#home2": {
-        "props": {
-            "tabId": "electronics",
-            "label": "Instagram"
         }
     },
     "tab-content.item#home1": {
         "children": ["rich-text#home1"],
         "props": {
-            "tabId": "majorAppliances"
-        }
-    },
-    "tab-content.item#home2": {
-        "children": ["iframe#home2"],
-        "props": {
-            "tabId": "electronics"
+            "tabId": "about"
         }
     },
     "rich-text#home1": {
@@ -86,7 +74,19 @@
             "font": "t-heading-3"
         }
     },
-    "iframe#home2": {
+    "tab-list.item#home2": {
+        "props": {
+            "tabId": "instagram",
+            "label": "Instagram"
+        }
+    },
+    "tab-content.item#home2": {
+        "children": ["iframe"],
+        "props": {
+            "tabId": "instagram"
+        }
+    },
+    "iframe": {
         "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
             "width": 800,
