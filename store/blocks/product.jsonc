@@ -21,7 +21,7 @@
   "flex-layout.col#right": {
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": false
+      "preventVerticalStretch": true
     },
     "children": [
       "product-name",
