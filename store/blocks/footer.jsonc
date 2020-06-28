@@ -38,15 +38,15 @@
         "props": {
             "socialNetworks": [{
                     "url": "https://facebook.com/foo",
-                    "name": "facebook"
+                    "name": "Facebook"
                 },
                 {
                     "url": "https://instagram.com/foo",
-                    "name": "instagram"
+                    "name": "Instagram"
                 },
                 {
                     "url": "https://twitter.com/foo",
-                    "name": "twitter"
+                    "name": "Twitter"
                 }
             ],
             "showInColor": true
