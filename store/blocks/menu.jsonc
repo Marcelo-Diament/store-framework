@@ -16,18 +16,14 @@
 
 
     /*
-     * 23.01 | SubMenu #01
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances'
+     * 23.01 | SubMenu 01. Major
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major'
      */
-    "vtex.menu@2.x:submenu#major-appliances": {
-        "children": ["vtex.menu@2.x:menu#major-appliances"]
+    "vtex.menu@2.x:submenu#major": {
+        "children": ["vtex.menu@2.x:menu#major"]
     },
 
-    /*
-     * 23.01.01 | SubMenu #01 Items
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances > vtex.menu@2.x:menu#major-appliances'
-     */
-    "vtex.menu@2.x:menu#major-appliances": {
+    "vtex.menu@2.x:menu#major": {
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
@@ -38,20 +34,14 @@
         }
     },
 
-
     /*
-     * 23.02 | SubMenu #02
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances'
+     * 23.02 | SubMenu 02. Small
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small'
      */
-    "vtex.menu@2.x:submenu#small-appliances": {
-        "children": ["vtex.menu@2.x:menu#small-appliances"]
+    "vtex.menu@2.x:submenu#small": {
+        "children": ["vtex.menu@2.x:menu#small"]
     },
-
-    /*
-     * 23.02.01 > Items | SubMenu #02 Items
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances > vtex.menu@2.x:menu#small-appliances'
-     */
-    "vtex.menu@2.x:menu#small-appliances": {
+    "vtex.menu@2.x:menu#small": {
         "children": [
             "menu-item#mixers",
             "menu-item#toasters",
@@ -62,19 +52,13 @@
         }
     },
 
-
     /*
-     * 23.03 | SubMenu #03
+     * 23.03 | SubMenu 03. Electronics
      * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics'
      */
     "vtex.menu@2.x:submenu#electronics": {
         "children": ["vtex.menu@2.x:menu#electronics"]
     },
-
-    /*
-     * 23.03.01 > Items | SubMenu #03 Items
-     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics > vtex.menu@2.x:menu#electronics'
-     */
     "vtex.menu@2.x:menu#electronics": {
         "children": [
             "menu-item#cameras",

@@ -1,6 +1,6 @@
 {
   /*
-   * 23.01 | SubMenu #01
+   * 23.01 | SubMenu 01. Major
    * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#major-appliances'
    */
   "menu-item#major-appliances": {
@@ -11,13 +11,9 @@
         "text": "Major Aplliances"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#major-appliances"]
+    "blocks": ["vtex.menu@2.x:submenu#major"]
   },
 
-  /*
-   * 23.01.01 | SubMenu #01 Items
-   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances > vtex.menu@2.x:menu#major-appliances'
-   */
   "menu-item#refrigerators": {
     "props": {
       "type": "category",
@@ -53,7 +49,7 @@
 
 
   /*
-   * 23.02 | SubMenu #02
+   * 23.02 | SubMenu 02. Small
    * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#small-appliances'
    */
   "menu-item#small-appliances": {
@@ -65,13 +61,8 @@
         "text": "Small Appliances"
       }
     },
-    "blocks": ["vtex.menu@2.x:submenu#small-appliances"]
+    "blocks": ["vtex.menu@2.x:submenu#small"]
   },
-
-  /*
-   * 23.02.01 > Items | SubMenu #02 Items
-   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances > vtex.menu@2.x:menu#small-appliances'
-   */
 
   "menu-item#mixers": {
     "props": {
@@ -108,7 +99,7 @@
 
 
   /*
-   * 23.03 | SubMenu #03
+   * 23.03 | SubMenu 03. Electronics
    * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#electronics'
    */
   "menu-item#electronics": {
@@ -122,11 +113,7 @@
     },
     "blocks": ["vtex.menu@2.x:submenu#electronics"]
   },
-
-  /*
-   * 23.03.01 > Items | SubMenu #03 Items
-   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics > vtex.menu@2.x:menu#electronics'
-   */
+  
   "menu-item#cameras": {
     "props": {
       "type": "category",
