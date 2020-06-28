@@ -20,9 +20,10 @@
         "props": {
             "querySchema": {
                 "facetsBehavior": "Static",
-                "query": "Blue Top Retro Camera",
+                "queryField": "Blue Top Retro Camera",
                 "hideUnavailableItem": false,
                 "installmentCriteria": "MAX_WITHOUT_INTEREST",
+                "mapField": "ft",
                 "maxItemsPerPage": "8",
                 "orderByField": "OrderByReleaseDataDESC",
                 "simulationBehavior": "default",
