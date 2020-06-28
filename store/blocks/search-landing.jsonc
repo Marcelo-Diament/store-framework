@@ -25,7 +25,7 @@
                 "installmentCriteria": "MAX_WITHOUT_INTEREST",
                 "mapField": "ft",
                 "maxItemsPerPage": "8",
-                "orderByField": "OrderByReleaseDataDESC",
+                "orderByField": "OrderByReleaseDateDESC",
                 "simulationBehavior": "default",
                 "skusFilter": "FIRST_AVAILABLE"
             }
