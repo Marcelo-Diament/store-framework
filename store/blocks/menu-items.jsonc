@@ -1,7 +1,7 @@
 {
   /*
    * 23.01 | SubMenu 01. Major
-   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#major-appliances'
+   * '(vtex.menu@2.x:menu#categories > ) menu-item#major-appliances'
    */
   "menu-item#major-appliances": {
     "props": {
