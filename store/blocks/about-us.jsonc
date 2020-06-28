@@ -1,6 +1,8 @@
 {
-    "store.custom#{custom-template}": {
-        "blocks": ["flex-layout.row#about-us"]
+    "store.custom#about-us": {
+        "blocks": [
+            "flex-layout.row#about-us"
+        ]
     },
     "flex-layout.row#about-us": {
         "children": [
