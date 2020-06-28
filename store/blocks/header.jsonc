@@ -15,7 +15,8 @@
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
-            "header-row#main"
+            "header-row#main",
+            "header-row#menu"
         ]
     },
 
@@ -59,6 +60,18 @@
             "inverted": true,
             "sticky": true
         }
+    },
+
+    /*
+     * 23 | Categories Menu
+     * 'header > header-layout.desktop > header-row#menu > vtex.menu@2.x:menu#categories'
+     */
+    "header-row#menu": {
+        "children": [
+            "header-spacer",
+            "vtex.menu@2.x:menu#categories",
+            "header-spacer"
+        ]
     },
 
     "header-row#search": {

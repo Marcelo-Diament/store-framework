@@ -1,0 +1,88 @@
+{
+    /*
+     * 23 | Categories Menu
+     * 'vtex.menu@2.x:menu#categories'
+     */
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props": {
+            "orientation": "horizontal"
+        }
+    },
+
+
+    /*
+     * 23.01 | SubMenu #01
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances'
+     */
+    "vtex.menu@2.x:submenu#major-appliances": {
+        "children": ["vtex.menu@2.x:menu#major-appliances"]
+    },
+
+    /*
+     * 23.01.01 | SubMenu #01 Items
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances > vtex.menu@2.x:menu#major-appliances'
+     */
+    "vtex.menu@2.x:menu#major-appliances": {
+        "children": [
+            "menu-item#refrigerators",
+            "menu-item#ovens",
+            "menu-item#washers"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+
+    /*
+     * 23.02 | SubMenu #02
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances'
+     */
+    "vtex.menu@2.x:submenu#small-appliances": {
+        "children": ["vtex.menu@2.x:menu#small-appliances"]
+    },
+
+    /*
+     * 23.02.01 > Items | SubMenu #02 Items
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances > vtex.menu@2.x:menu#small-appliances'
+     */
+    "vtex.menu@2.x:menu#small-appliances": {
+        "children": [
+            "menu-item#mixers",
+            "menu-item#toasters",
+            "menu-item#coffee"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+
+
+    /*
+     * 23.03 | SubMenu #03
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics'
+     */
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": ["vtex.menu@2.x:menu#electronics"]
+    },
+
+    /*
+     * 23.03.01 > Items | SubMenu #03 Items
+     * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics > vtex.menu@2.x:menu#electronics'
+     */
+    "vtex.menu@2.x:menu#electronics": {
+        "children": [
+            "menu-item#cameras",
+            "menu-item#laptops",
+            "menu-item#tvs"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    }
+}

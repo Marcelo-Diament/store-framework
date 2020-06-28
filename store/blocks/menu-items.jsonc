@@ -1,132 +1,163 @@
 {
+  /*
+   * 23.01 | SubMenu #01
+   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#major-appliances'
+   */
   "menu-item#major-appliances": {
-      "props": {
+    "props": {
       "type": "custom",
       "highlight": true,
       "itemProps": {
         "text": "Major Aplliances"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#major-appliances"]
   },
-  "menu-item#small-appliances": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 2, 
-        "text": "Small Appliances"
-      }
-    }
-  },
-  "menu-item#electronics": {
-      "props":
-    {
-      "type": "category",
-      "highlight": true,
-      "itemProps": {
-        "categoryId": 3, 
-        "text": "Electronics"
-      }
-    }
-  },
+
+  /*
+   * 23.01.01 | SubMenu #01 Items
+   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#major-appliances > vtex.menu@2.x:menu#major-appliances'
+   */
   "menu-item#refrigerators": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 4, 
+        "categoryId": 4,
         "text": "Refrigerators"
       }
     }
   },
+
   "menu-item#ovens": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 5, 
+        "categoryId": 5,
         "text": "Ranges & Ovens"
       }
     }
   },
+
   "menu-item#washers": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 6, 
+        "categoryId": 6,
         "text": "Washers & Dryers"
       }
     }
   },
-  "menu-item#mixers": {
-      "props":
-    {
+
+
+  /*
+   * 23.02 | SubMenu #02
+   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#small-appliances'
+   */
+  "menu-item#small-appliances": {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 7, 
+        "categoryId": 2,
+        "text": "Small Appliances"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small-appliances"]
+  },
+
+  /*
+   * 23.02.01 > Items | SubMenu #02 Items
+   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#small-appliances > vtex.menu@2.x:menu#small-appliances'
+   */
+
+  "menu-item#mixers": {
+    "props": {
+      "type": "category",
+      "highlight": true,
+      "itemProps": {
+        "categoryId": 7,
         "text": "Mixers & Blenders"
       }
     }
   },
+
   "menu-item#toasters": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 8, 
+        "categoryId": 8,
         "text": "Toasters & Grills"
       }
     }
   },
+
   "menu-item#coffee": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 9, 
+        "categoryId": 9,
         "text": "Coffee Makers"
       }
     }
   },
-  "menu-item#tvs": {
-      "props":
-    {
+
+
+  /*
+   * 23.03 | SubMenu #03
+   * '(vtex.menu@2.x:menu#categories > ) vtex.menu@2.x:submenu#electronics'
+   */
+  "menu-item#electronics": {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 10, 
-        "text": "TVs"
+        "categoryId": 3,
+        "text": "Electronics"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
+  },
+
+  /*
+   * 23.03.01 > Items | SubMenu #03 Items
+   * 'vtex.menu@2.x:menu#categories > vtex.menu@2.x:submenu#electronics > vtex.menu@2.x:menu#electronics'
+   */
+  "menu-item#cameras": {
+    "props": {
+      "type": "category",
+      "highlight": true,
+      "itemProps": {
+        "categoryId": 12,
+        "text": "Cameras"
       }
     }
   },
+
   "menu-item#laptops": {
-      "props":
-    {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 11, 
+        "categoryId": 11,
         "text": "Laptops"
       }
     }
   },
-  "menu-item#cameras": {
-      "props":
-    {
+
+  "menu-item#tvs": {
+    "props": {
       "type": "category",
       "highlight": true,
       "itemProps": {
-        "categoryId": 12, 
-        "text": "Cameras"
+        "categoryId": 10,
+        "text": "TVs"
       }
     }
   }
+
 }

@@ -5,12 +5,21 @@
             "tab-layout#home"
         ]
     },
+
     "flex-layout.row#about-us": {
         "children": [
             "image#about-us",
             "flex-layout.col#text-about-us"
         ]
     },
+
+    "image#about-us": {
+        "props": {
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
+            "maxHeight": "600px"
+        }
+    },
+
     "flex-layout.col#text-about-us": {
         "children": [
             "rich-text#about-title",
@@ -20,40 +29,40 @@
             "preventVerticalStretch": true
         }
     },
+    
     "rich-text#about-title": {
         "props": {
             "text": "# About FlatFlat"
         }
     },
+
     "rich-text#about-content": {
         "props": {
             "text": " FlatFlat is an electronics store with a long standing tradition for creating modern and vintage items. Out objective is to create home appliances that make your house stand out, no matter your style. Merely 2 months old, we're already the store with the most beautiful products among all VTEX stores. We are currently building our site with the aim of giving our customers an unforgetable experience with our brand!"
         }
     },
-    "image#about-us": {
-        "props": {
-            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
-            "maxHeight": "600px"
-        }
-    },
+
     "tab-layout#home": {
         "children": [
             "tab-list#home",
             "tab-content#home"
         ]
     },
+
     "tab-list#home": {
         "children": [
             "tab-list.item#home1",
             "tab-list.item#home2"
         ]
     },
+
     "tab-content#home": {
         "children": [
             "tab-content.item#home1",
             "tab-content.item#home2"
         ]
     },
+
     "tab-list.item#home1": {
         "props": {
             "tabId": "about",
@@ -61,12 +70,14 @@
             "defaultActiveTab": true
         }
     },
+
     "tab-content.item#home1": {
         "children": ["rich-text#home1"],
         "props": {
             "tabId": "about"
         }
     },
+
     "rich-text#home1": {
         "props": {
             "text": "# **Our history** \n ### **We were born from an internal VTEX hackathon!** \n That's right. VTEX's first Hackatheme (store theme hackathon) had 3 finalists. One of them was FlatFlat, the store that you're accessing now. FlatFlat was created by the engineers Afonso Praça and Sávio Muniz, together with designers Lucas Falcão and Augusto Barbosa, and new business director Maurício Baum. As the store was created by profissionals having the most diverse backgrounds, the result was an obvious one: they became the finalists with coolest layout among participants.",
@@ -74,18 +85,21 @@
             "font": "t-heading-3"
         }
     },
+
     "tab-list.item#home2": {
         "props": {
             "tabId": "instagram",
             "label": "Instagram"
         }
     },
+
     "tab-content.item#home2": {
         "children": ["iframe"],
         "props": {
             "tabId": "instagram"
         }
     },
+
     "iframe": {
         "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
