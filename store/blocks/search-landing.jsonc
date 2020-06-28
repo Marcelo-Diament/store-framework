@@ -8,10 +8,11 @@
     "image#landingbanner": {
         "props": {
             "minWidth": "100%",
-            "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png"
+            "src": "https://compracerta.vteximg.com.br/arquivos/banner%20area%20n%C3%A3o%20logada.png"
         }
     },
     "search-result-layout.customQuery": {
+        "blocks": ["search-result-layout.desktop"],
         "props": {
             "querySchema": {
                 "orderByField": "OrderByReleaseDateDESC",
